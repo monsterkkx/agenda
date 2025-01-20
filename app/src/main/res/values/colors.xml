@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--tema claro-->
+<color name="white">#FFFFFFFF</color>
+<color name="pink">#FB5AAA</color>
+<color name="purple_200">#ffbb86fc</color>
+<color name="teal_200">#ff03dac5 </color>
+<color name="teal_700">#ff018786</color>
+<color name="lavander">#8692f7</color>
+<color name="cor_top">#00DAD2</color>
+<color name="cor_bottom">#002AFF</color>
+<color name="cor_investimentos">#BFFF8C00</color>
+<color name="cor_musicas">#BF003FFF</color>
+<color name="cor_videos">#00DC84</color>
+
+<!--tema escuro-->
+<color name="black">#FF000000</color>
+<color name="gray">#191c1e</color>
+<color name="grayzinho">#757575</color>
+<color name="catblack">#161616</color>
+<color name="purple_500">#ff6200ee</color>
+<color name="purple_700">#ff3700b3</color>
+<color name="cor_noticias">#BF8000FF</color>
+</resources>

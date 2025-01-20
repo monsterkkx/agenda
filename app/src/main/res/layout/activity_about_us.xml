@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    style="@style/BACKGROUND">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--logo da empresa-->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/ivLogo"
+            android:layout_gravity="center"
+            android:src="@drawable/logod"
+            android:contentDescription="Logo da empresa"
+            android:layout_marginBottom="16dp"/>
+        <!--nome da empresa-->
+        <TextView
+            style="@style/TEXTCOLOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCompanyName"
+            android:text="Nome da empresa ficticia"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:paddingBottom="8dp"/>
+        <!--descrição-->
+        <TextView
+            style="@style/TEXTCOLOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCompanyDescription"
+            android:text="Somos especializados em oferecer os melhores serviços para nossos clientes. Nosso objetivo é garantir sua satisfação com qualidade e profissionalismo."
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="4dp"
+            android:paddingBottom="16dp"/>
+        <!--contato-->
+        <TextView
+            style="@style/TEXTCOLOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entre em contato conosco:"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="8dp"/>
+        <TextView
+            style="@style/TEXTCOLOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEmail"
+            android:text="Email: contato@empresa.com"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            style="@style/TEXTCOLOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPhone"
+            android:text="Telefone: +55 11 912345678"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"/>
+        <!--localização-->
+        <TextView
+            style="@style/TEXTCOLOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nossa localização"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            style="@style/TEXTCOLOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tcAddress"
+            android:text="Av. Fictícia, 123 - Centro, São Paulo, SP"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="16dp"/>
+        <!--copyright-->
+        <TextView
+            style="@style/TEXTCOLOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© 2024 Nome da Empresa. Todos os direitos reservados."
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

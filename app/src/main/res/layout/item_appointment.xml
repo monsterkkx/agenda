@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    style="@style/BACKGROUND">
+    <TextView
+        style="@style/TEXTCOLOR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvServiceName"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Serviço"/>
+
+    <TextView
+        style="@style/TEXTCOLOR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDate"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:text="Data"/>
+
+    <TextView
+        style="@style/TEXTCOLOR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTime"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:text="Hora"/>
+</LinearLayout>

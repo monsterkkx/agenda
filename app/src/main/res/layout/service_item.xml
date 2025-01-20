@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="40dp"
+    android:padding="8dp"
+    style="@style/BACKGROUND">
+
+    <CheckBox
+        android:id="@+id/serviceCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/serviceImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@id/serviceCheckBox"
+        android:src="@drawable/ic_service_icon" />
+
+    <TextView
+        style="@style/TEXTCOLOR"
+        android:id="@+id/serviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/serviceImage"
+        android:paddingStart="8dp"
+        android:text="Nome do Serviço"
+        android:textSize="18sp" />
+
+    <TextView
+        style="@style/TEXTCOLOR"
+        android:id="@+id/service_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/serviceName"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@id/serviceImage"
+        android:text="Descrição do Serviço"
+        android:textSize="14sp" />
+
+</RelativeLayout>
