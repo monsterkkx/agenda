@@ -1,6 +1,5 @@
 # Sistema de Agendamento de Serviços
 
-# Sistema de Agendamento de Serviços
 
 ## Sobre o Projeto
 Este é um aplicativo Android desenvolvido em **Java** com integração ao **Firebase Realtime Database**, permitindo que usuários agendem e gerenciem serviços de forma intuitiva e eficiente. O app conta com um design moderno e funcionalidades pensadas para melhorar a experiência do usuário, incluindo uma **tela de splash screen** e um sistema de **modo claro e escuro**.
